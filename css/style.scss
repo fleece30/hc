@@ -200,6 +200,53 @@ body {
   margin: 20px 90px;
 }
 
+#contact {
+  padding-top: 65px !important;
+}
+
+.contact {
+  color: rgb(65, 65, 65);
+  display: grid;
+  grid-template-columns: 40% 60%;
+  column-gap: 60px;
+  padding: 0 60px;
+  img {
+    position: relative;
+    top: 15%;
+    width: 100%;
+  }
+}
+
+.wrap {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  width: 45px;
+  height: 45px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  margin-right: 30px;
+  text-align: center;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.button:hover {
+  background-color: #ffbf00;
+  box-shadow: 0px 15px 20px rgba(255, 191, 0, 0.4);
+  color: #fff;
+  transform: translateY(-5px);
+}
 /* Media qurey section */
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
