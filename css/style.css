@@ -299,6 +299,12 @@ body {
   .home .head {
     font-size: 100px;
   }
+  nav {
+    padding: 3px 0 !important;
+  }
+  nav li a {
+    font-size: 13px !important;
+  }
   .main,
   .prices {
     background-position: right top;
@@ -344,6 +350,12 @@ body {
 @media screen and (min-width: 375px) and (max-width: 768px) {
   .home .head {
     font-size: 50px;
+  }
+  nav {
+    padding: 3px 0 !important;
+  }
+  nav li a {
+    font-size: 13px !important;
   }
   .main,
   .prices {
@@ -422,6 +434,12 @@ body {
 @media screen and (max-width: 375px) and (max-width: 768px) {
   .home .head {
     font-size: 50px;
+  }
+  nav {
+    padding: 3px 0 !important;
+  }
+  nav li a {
+    font-size: 13px !important;
   }
   .main,
   .prices {

@@ -263,6 +263,12 @@ body {
       font-size: 100px;
     }
   }
+  nav {
+    padding: 3px 0 !important;
+    li a {
+      font-size: 13px !important;
+    }
+  }
   .main,
   .prices {
     background-position: right top;
@@ -303,6 +309,12 @@ body {
   .home {
     .head {
       font-size: 50px;
+    }
+  }
+  nav {
+    padding: 3px 0 !important;
+    li a {
+      font-size: 13px !important;
     }
   }
   .main,
@@ -380,6 +392,12 @@ body {
     .home {
       .head {
         font-size: 50px;
+      }
+    }
+    nav {
+      padding: 3px 0 !important;
+      li a {
+        font-size: 13px !important;
       }
     }
     .main,
